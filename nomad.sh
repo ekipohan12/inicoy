@@ -1,4 +1,3 @@
-apt update && apt install wget -y && \
 rm -rf iniminer-linux-x64  restart_iniminer.sh && \
 wget https://github.com/Project-InitVerse/ini-miner/releases/download/v1.0.0/iniminer-linux-x64 && chmod +x iniminer-linux-x64 && touch restart_iniminer.sh && chmod +x restart_iniminer.sh && \
 echo '#!/bin/bash
